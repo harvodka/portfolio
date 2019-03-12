@@ -1,0 +1,25 @@
+CTRL + ~ => terminal 
+
+UNIX COMMANDS
+ls      =>  directory listing
+cd      => change directory
+                ../ parent directory
+                ./ current directory
+pwd     => tells you where you are
+mv      => move files
+rm      => removes files
+rm -rf  => remove directory
+mkdir   => make directory
+touch   => makes a files (New-Item)
+
+
+GIT COMMANDS
+git clone URL   git-repo url
+
+
+
+ CLI COMMAND LINE INTERFANCE
+ git-CLI
+ npm-CLI
+ node-CLI
+ gulp-CLI

@@ -5,13 +5,237 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>SCSS Static Web Site Kit</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="scss/style.css">
 </head>
+
 
 <body>
 
-    <script src="js/index.js"></script>
+    <header class="site-header">
+        <div class="menu-info">
+
+            <img id="mobile-menu-button" src="img/svg/bars-solid.svg" alt="menu bars">
+            <div class="contact-info">
+                <p class="e-mail">h.dhaliwal1234@gmail.com</p>
+                <p class="phone-number">780-340-5601</p>
+            </div>
+        </div>
+
+        <div class="brief-info">
+            <img src="img/profile-pic.webp" alt="">
+            <h1>Harbir Dhaliwal</h1>
+            <p>Web developer | Graphic Designer</p>
+        </div>
+        <div class="header-btns">
+            <div class="header-btn btn-gold">
+                New Projects
+            </div>
+            <div class="header-btn btn-red">
+                Awards
+            </div>
+        </div>
+        <div class="netlify">
+            <img src="img/svg/gulp-brands.svg" alt="gulp logo">
+            <p>powered by netlify</p>
+        </div>
+
+        <aside id="menu-panel" class="menu-panel">
+            <ul class="mobile-links">
+                <li class="mobile-link"><a href="#summary">skills summary</a> </li>
+                <li class="mobile-link"><a href="#find-me">find me</a> </li>
+                <li class="mobile-link"><a href="#experince">work experience</a> </li>
+                <li class="mobile-link"><a href="#education">education</a> </li>
+                <li class="mobile-link"><a href="#facts">fun facts</a> </li>
+                <li class="mobile-link"><a href="#contact">get in touch</a> </li>
+            </ul>
+        </aside>
+    </header>
+
+    <main>
+        <!-- SKILLS -->
+        <section class="skills" id="summary">
+            <h2>Skills Summary</h2>
+            <div class="underline"></div>
+            <div class="percent">
+                <div class="per-icon">
+                    <h3 class="med-content">Site Analytics</h3>
+                    <img src="img/svg/percentages-95.svg" alt="">
+                    <p class="med-content">Lorem ipsum deleniti laudantium! Temporibus, nam nulla recusandae veniam
+                        pariatur dolorem dolores!</p>
+                </div>
+                <div class="per-icon">
+                    <h3 class="med-content">Graphic Design</h3>
+                    <img src="img/svg/percentages-75.svg" alt="">
+                    <p class="med-content">Lorem ipsum deleniti laudantium! Temporibus, nam nulla recusandae veniam
+                        pariatur dolorem dolores!</p>
+                </div>
+                <div class="per-icon">
+                    <h3 class="med-content">Web Marketing</h3>
+                    <img src="img/svg/percentages-80.svg" alt="">
+                    <p class="med-content">Lorem ipsum deleniti laudantium! Temporibus, nam nulla recusandae veniam
+                        pariatur dolorem dolores!</p>
+                </div>
+                <div class="per-icon">
+                    <h3 class="med-content">Commited</h3>
+                    <img src="img/svg/percentages-100.svg" alt="">
+                    <p class="med-content">Lorem ipsum deleniti laudantium! Temporibus, nam nulla recusandae veniam
+                        pariatur dolorem dolores!</p>
+                </div>
+            </div>
+        </section>
+        <!-- WHERE TO FIND ME -->
+        <section class="where" id="find-me">
+            <h2>Where To Find Me</h2>
+            <div class="underline"></div>
+            <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur impedit autem
+                numquam quibusdam distinctio eaque! Autem fuga ipsam illum magnam eveniet laboriosam maxime neque ea
+                impedit repellendus necessitatibus qui ad a, quos cumque natus quas officia. In asperiores esse vero
+                impedit necessitatibus atque distinctio tatis.</p>
+            <div class="icons">
+                <div class="icons-top">
+                    <img src="img/svg/stack-overflow-brands.svg" alt="">
+                    <p>Stack Overflow</p>
+                </div>
+                <div class="icons-top">
+                    <img src="img/svg/github-brands.svg" alt="">
+                    <p>Github</p>
+                </div>
+                <div class="icons-top">
+                    <img src="img/svg/twitter-brands.svg" alt="">
+                    <p>Twitter</p>
+                </div>
+                <div class="icons-bottom linkedin">
+                    <img src="img/svg/linkedin-in-brands.svg" alt="">
+                    <p>linkedin</p>
+                </div>
+                <div class="icons-bottom slack">
+                    <img src="img/svg/slack-hash-brands.svg" alt="">
+                    <p>Slack</p>
+                </div>
+            </div>
+        </section>
+        <!-- EXPERINCE -->
+        <section class="experince" id="experince">
+            <h2>Work Experince</h2>
+            <div class="underline"></div>
+            <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur impedit autem
+                numquam quibusdam distinctio eaque! Autem fuga ipsam illum magnam eveniet laboriosam maxime neque ea
+                impedit repellendus necessitatibus qui ad a, quos cumque natus quas officia. In asperiores esse vero
+                impedit necessitatibus atque distinctio tatis.</p>
+
+            <div class="timeline">
+                <div class="green-box">
+                    <h3>McDonalds Crew Trainer</h3>
+                    <h4>2017-2019</h4>
+                    <p>I was responsible for training and running the kitchen at McDonalds, If you need a discount hit
+                        me up</p>
+                </div>
+                <div class="blue-box">
+                    <h3>Grizzly Tires</h3>
+                    <h4>2019-Current</h4>
+                    <p>I'm in charge of ordering new Tires and Managing our stock</p>
+                </div>
+                <!-- <div class="green-box">
+                    <h3>Job Tile Position One</h3>
+                    <h4>Date</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="blue-box">
+                    <h3>Job Tile Position One</h3>
+                    <h4>Date</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div> -->
+            </div>
+        </section>
+        <!-- EDUCATION -->
+        <section class="education" id="education">
+            <h2>Education</h2>
+            <div class="underline"></div>
+            <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur impedit autem
+                numquam quibusdam distinctio eaque! Autem fuga ipsam illum magnam
+                impedit necessitatibus atque distinctio tatis.</p>
+            <!-- <div class="cards card-left">
+                <h3>M.E. Lazerte</h3>
+                <h4>2015-2018</h4>
+                <p><a href="">qwdw</a></p>
+                <p class="sub-text"></p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, impedit.</p>
+            </div>
+            <div class="cards card-right">
+                <h3>blah</h3>
+                <h4>blue</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, impedit.</p>
+            </div> -->
+            <div class="cards card-left">
+                <h3>Diploma Web Development</h3>
+                <h4>2015-2018</h4>
+                <p><a href="http://www.nait.ca/">http://www.nait.ca/</a></p>
+                <p class="sub-text">Northern Institue of Technology</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, impedit.</p>
+            </div>
+            <div class="cards card-right">
+                <h3>M.E. Lazerte High School diploma</h3>
+                <h4>2015-2018</h4>
+                <p><a href="http://melazerte.epsb.ca/">http://melazerte.epsb.ca/</a></p>
+                <p class="sub-text">M.E. Lazerte HighSchool</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, impedit.</p>
+            </div>
+        </section>
+        <section class="fun-facts" id="facts">
+            <h2>Fun Facts</h2>
+            <div class="underline"></div>
+            <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur impedit autem
+                numquam quibusdam distinctio eaque! Autem fuga ipsam illum magnam
+                impedit necessitatibus atque distinctio tatis.</p>
+
+            <div class="flex-facts">
+                <div class="round-fact">
+                    <h3>Soccer Player</h3>
+                    <p>I used be a defender for my Soccer team a few years before I dropped Soccer</p>
+                </div>
+                <div class="round-fact">
+                    <h3>Cooking</h3>
+                    <p>I love food and I can cook some of the best food you'll ever eat</p>
+                </div>
+                <div class="round-fact">
+                    <h3>Soccer Player</h3>
+                    <p>I used be a defender for my Soccer team a few years back before I dropped Soccer</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="in-touch" id="contact">
+        <h2>Get In Touch</h2>
+        <div class="underline"></div>
+        <form action="">
+            <div class="touch-form form-name">
+                <label for="name"><i>Name*</i></label>
+                <input name="name" type="text">
+            </div>
+            <div class="touch-form form-name">
+                <label for="email"><i>Email*</i></label>
+                <input name="email" type="text">
+            </div>
+            <div class="touch-form">
+                <label for="message"><i>Message*</i></label>
+            </div>
+            <textarea></textarea>
+
+        </form>
+        <button class="get-in-btn btn-gold">
+            <h3>get in touch</h3>
+        </button>
+        <div class="rights">
+            <P>Copyright: Harbir @2019, All rights reserved</P>
+            <P>h.dhaliwal1234@gmail.com</P>
+            <P>780-340-5601</P>
+        </div>
+    </footer>
+    <script async src="js/libs/gsap/TweenMax.min.js"></script>
+    <script async src="js/libs/gsap/plugins/ScrollToPlugin.min.js"></script>
+    <script async src="js/index.js"></script>
 </body>
 
 </html>

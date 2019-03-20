@@ -1,3 +1,485 @@
 @import "init/index";
 @import "typography/index";
-@import "utils/index";
+@import "ui/index";
+
+
+// universal or general
+.underline {
+    width: 75px;
+    height: 2px;
+    background-color: red;
+    margin: 0 auto;
+}
+
+img[src$=".svg"] {
+    width: 32px;
+    // this is just for setting a new default orthe svg sizes
+}
+
+body h2 {
+    font-size: 2.1rem;
+}
+
+.description {
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.med-content {
+    display: none;
+}
+
+//SMALL VIEW PORT
+//HEADER
+.site-header {
+    background-color: #353541;
+    color: white;
+    padding: 100px 18px 36px;
+    text-align: center;
+}
+
+.contact-info {
+    .e-mail {
+        font-size: calc(1rem + 0.25vw);
+    }
+
+    .phone-number {
+        font-size: calc(0.75rem + 0.5vw);
+    }
+}
+
+.menu-info {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #353541;
+    box-shadow: 0 0 6px 0 black;
+}
+
+.brief-info {
+    margin: 0 auto;
+    width: 300px; //this can be changed to a different width later
+}
+
+img[src$=".webp"] {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+}
+
+.header-btn {
+    width: 270px;
+    border-radius: 6px;
+    margin: 1.5rem auto;
+    font-size: 24px;
+    padding: 0.5em 0;
+}
+
+.btn-red {
+    background-color: #DD403A;
+}
+
+.btn-gold {
+    background-color: #DEB841;
+}
+
+.netlify {
+    margin: 0 auto;
+    width: 200px;
+}
+
+///////// be careful becasue of the text-align center is on the whole thing
+
+//SKILL SUMMARY
+.skills {
+    text-align: center;
+}
+
+.percent {
+    display: flex;
+    flex-direction: column;
+
+    img[src$=".svg"] {
+        width: 220px;
+        margin: 12px auto;
+    }
+}
+
+// WHERE TO FIND ME
+
+.where {
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.icons {
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    width: 480px;
+}
+
+.icons img {
+    width: 72px;
+}
+
+.icons-top {
+    flex: 33.33%
+}
+
+.icons-bottom {
+    flex: 50%;
+}
+
+// .slack{
+//     margin-right: calc(12vw);
+// }
+
+// .linkedin{
+//     margin-left: calc(12vw);
+// }
+
+//EXPERINCE
+.experince {
+    text-align: center;
+    margin-top: 4rem;
+}
+
+//EXPERINCE TIME LINE
+.timeline {
+    padding: 0 10vw;
+    margin: 0 auto;
+    color: white;
+}
+
+.green-box {
+    width: 420px;
+    text-align: left;
+    background-color: #7ac943;
+    margin-right: auto;
+    margin-top: 2rem;
+    padding: 1rem;
+    border-radius: 6px;
+
+
+    h3 {
+        font-size: 24px;
+    }
+
+    h4 {
+        font-size: 18px;
+    }
+
+    p {}
+}
+
+.blue-box {
+    width: 420px;
+    text-align: left;
+    background-color: #3fa9f5;
+    margin-left: auto;
+    margin-top: 2rem;
+    padding: 1rem;
+    border-radius: 6px;
+
+    h3 {
+        font-size: 24px;
+    }
+
+    h4 {
+        font-size: 18px;
+    }
+
+    p {}
+}
+
+
+// EDUCATION CARDS
+.education {
+    background-color: #f4f1f4;
+    margin-top: 2rem;
+    padding: 3rem 0;
+    display: flex;
+    flex-direction: column;
+
+    h2 {
+        text-align: center;
+    }
+}
+
+.cards {
+    width: 440px;
+    border-radius: 6px;
+    background-color: #353541;
+    margin: 18px auto;
+    padding: 1rem;
+    color: white;
+
+    h3 {
+        font-size: 22px;
+    }
+
+    h4 {
+        color: #fb6470;
+        font-size: 18px;
+    }
+
+    a {
+        font-size: 0.8rem;
+        color: #9c9baa;
+    }
+
+    .sub-text {
+        color: #746868;
+    }
+}
+
+.card-left {
+    margin: 1rem auto 1rem 10vw;
+}
+
+.card-right {
+    margin: 1rem 10vw 1rem auto;
+}
+
+//FUN FACTS
+.fun-facts {
+    text-align: center;
+
+    h3 {
+        color: #fb6470;
+    }
+}
+
+.flex-facts {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.round-fact {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: #353541;
+    padding: 3rem;
+    margin: 12px auto;
+    flex: 100%;
+}
+
+//FOOTER GET IN TOUCH
+.in-touch {
+    text-align: center;
+}
+
+.get-in-btn {
+    width: 270px;
+    border-radius: 6px;
+    margin: 1.5rem auto;
+    font-size: 24px;
+    padding: 0.5em 0;
+    color: white;
+}
+
+input[type=text] {
+    border: 1px solid grey;
+    border-radius: 12px;
+    display: block;
+    width: 420px;
+
+}
+
+label {
+    display: block;
+    text-align: left;
+}
+
+.touch-form {
+    width: 420px;
+    margin: 0 auto;
+}
+
+textarea {
+    width: 420px;
+    height: 120px;
+    border: 1px solid grey;
+    border-radius: 12px;
+}
+
+footer {
+    padding-bottom: 50px;
+}
+
+//medium view port
+@media(min-width:780px) {
+
+    //general
+    body {
+
+        h2,
+        h3 {
+            font-weight: bold;
+        }
+    }
+
+    .underline {
+        display: none;
+    }
+
+    .description {
+        width: 70%;
+    }
+
+    //SITE-HEADER
+    .header-btns {
+        display: flex;
+        width: 600px;
+        margin: 0 auto;
+    }
+
+    //SKILLS
+    .percent {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+        .per-icon {
+            width: 220px;
+            margin: 12px 0;
+            flex: 50%;
+        }
+
+        h2 {
+            font-size: 3rem;
+            color: #939191;
+        }
+
+        h3 {
+            font-size: 36px;
+            color: #746868;
+        }
+
+        p {
+            color: #746868;
+            font-weight: bold;
+        }
+    }
+
+    .med-content {
+        display: block;
+        width: 300px;
+        margin: 0 auto;
+    }
+
+
+    //WHERE
+    .where {
+        background-color: #889ea8;
+        color: white;
+        padding-bottom: 3rem;
+
+        h2 {
+            padding-top: 2rem;
+        }
+
+        .description {
+            margin-bottom: 3rem;
+            color: #c3ced3;
+        }
+    }
+
+    .icons {
+        flex-wrap: none;
+        width: 80%;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+
+    .icons-top {
+        flex: 20%
+    }
+
+    .icons-bottom {
+        flex: 20%;
+    }
+
+    //EXPERINCE
+    .experince {
+        h2 {
+            color: #aba9a9;
+        }
+
+        .description {}
+    }
+
+    //EDUCATION
+    .education {}
+
+    //FUN FACTS
+    .flex-facts {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+        margin: 0 auto;
+        width: 80vw;
+    }
+
+    .round-fact {
+        max-width: 300px;
+        max-height: 300px;
+        border-radius: 50%;
+        background-color: #353541;
+        padding: 3rem;
+        margin: 12px 0;
+        flex: 50%;
+    }
+}
+
+@media(min-width: 1200px) {
+
+    //SKILLS
+    .percent {
+        flex-wrap: nowrap;
+
+        .per-icon {
+            flex: 25%;
+            justify-content: space-between;
+        }
+    }
+
+    //FUN FACTS
+    .fun-facts {
+        flex-wrap: nowrap;
+    }
+
+    .round-fact {
+        flex-wrap: nowrap;
+        flex: 33.33%;
+        justify-content: space-between;
+    }
+
+    //FOOTER
+    form {
+        width: 900px;
+        margin: 0 auto;
+    }
+
+    .form-name {
+        display: inline-block;
+    }
+
+    textarea {
+        width: 630px;
+    }
+
+    label[for="message"] {
+        text-align: center;
+    }
+}
